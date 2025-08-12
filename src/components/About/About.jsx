@@ -30,7 +30,7 @@ const About = () => {
                             words={['Frontend Web Developer', 'Coder']}
                             loop
                             cursor
-                            cursorStyle=".."
+                            cursorStyle="_"
                             typeSpeed={100}
                             deleteSpeed={50}
                             delaySpeed={2000}
