@@ -37,13 +37,13 @@ const Education = () => {
         <h2 className="text-3xl sm:text-4xl font-bold text-white">Education</h2>
         <div className="w-35 h-1 bg-[#8245ec] mx-auto mt-2"></div>
         <p className="text-gray-400 mt-4 mb-8 text-lg font-semibold">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam explicabo, tempora vel repudiandae delectus ipsam sed officia hic rem!
+          My education details staring from secondary education to my under graduation.
         </p>
         <div className="space-y-6">
           {educationData.map((edu, index) => (
             <div
               key={index}
-              className="flex items-center bg-[#1a1a40] p-6 rounded-2xl shadow-lg hover:scale-[1.02] hover:shadow-[0_5px_10px_rgba(130,69,236,0.5)] transition-transform hover:bg-gradient-to-r hover:from-[#2a2a5a] hover:to-[#1a1a40]"
+              className="flex items-center bg-[#1a1a40] p-6 rounded-2xl shadow-lg hover:scale-[1.02] hover:shadow-[0_5px_10px_rgba(130,69,236,0.5)] transition-transform "
             >
               <img
                 src={edu.image}

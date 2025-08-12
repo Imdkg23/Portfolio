@@ -53,7 +53,7 @@ const Certification = () => {
         {certificates.map((cert, index) => (
           <div
             key={index}
-            className="bg-[#1a1a40] bg-opacity-50 backdrop-blur-md rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 hover:bg-gradient-to-r hover:from-[#2a2a5a] hover:to-[#1a1a40] hover:shadow-[0_5px_10px_rgba(130,69,236,0.5)] "
+            className="bg-[#1a1a40] bg-opacity-50 backdrop-blur-md rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300  hover:shadow-[0_5px_10px_rgba(130,69,236,0.5)] "
           >
             <img
               src={cert.image}

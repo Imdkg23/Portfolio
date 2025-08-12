@@ -20,7 +20,17 @@ import vscodeLogo from '../../assets/tech_logo/vscode.jpg';
 const Skills = () => {
   const skillsData = [
     {
-      category: "Frontend",
+      category: "Languages",
+      skills: [
+        { name: "C", logo: cLogo },         
+        { name: "C++", logo: cppLogo },   
+        { name: "Java", logo: javaLogo }, 
+        { name: "Python", logo: pythonLogo }, 
+        { name: "JavaScript", logo: jsLogo }, 
+      ],
+    },
+    {
+      category: "Development",
       skills: [
         { name: "HTML", logo: htmlLogo  },       
         { name: "CSS", logo: cssLogo },         
@@ -45,16 +55,7 @@ const Skills = () => {
         { name: "Vercel", logo: vercelLogo }, 
       ],
     },
-    {
-      category: "Languages",
-      skills: [
-        { name: "C", logo: cLogo },         
-        { name: "C++", logo: cppLogo },   
-        { name: "Java", logo: javaLogo }, 
-        { name: "Python", logo: pythonLogo }, 
-        { name: "JavaScript", logo: jsLogo }, 
-      ],
-    },
+    
   ];
 
   return (
@@ -67,7 +68,7 @@ const Skills = () => {
         <h2 className="text-3xl sm:text-4xl font-bold text-white">SKILLS</h2>
         <div className="w-24 h-1 bg-[#8245ec] mx-auto mt-2"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          A collection of my technical skills and expertise honed through various projects and experiences
+          A collection of my technical skills and expertise honed through various projects and experiences.
         </p>
       </div>
 
@@ -78,7 +79,7 @@ const Skills = () => {
         {skillsData.map((category) => (
           <div
             key={category.category}
-            className="bg-gray-900 px-6 py-6 rounded-2xl border border-white/10 shadow-lg w-full sm:w-[45%] lg:w-[30%] hover:shadow-[0_5px_10px_rgba(130,69,236,0.5)] hover:scale-110 transition-transform"
+            className="bg-[#1a1a40] px-6 py-6 rounded-2xl border border-white/10 shadow-lg w-full sm:w-[45%] lg:w-[30%] hover:shadow-[0_5px_10px_rgba(130,69,236,0.5)] hover:scale-105 transition-transform"
           >
             <h3 className="text-2xl font-semibold text-gray-300 mb-4 text-center">
               {category.category}

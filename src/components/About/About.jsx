@@ -10,7 +10,7 @@ const About = () => {
             className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
         >
             <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-10">
-                
+
                 {/* Left Side - Text */}
                 <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
                     {/* Greeting */}
@@ -38,7 +38,9 @@ const About = () => {
                     </h3>
 
                     <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perspiciatis ipsa cum omnis enim praesentium ratione? Blanditiis sunt, deserunt error officiis sint culpa est eos facilis iusto, quis a ab iste quisquam incidunt ut animi tenetur consectetur? Quis commodi obcaecati, eius, velit possimus eveniet aperiam quod incidunt, nisi praesentium perferendis.
+                        Hi, I’m Deep Kumar Ghosh — a passionate tech enthusiast in my final year of B.Tech. Born and brought up in Hyderabad and later based in West Bengal, I’ve nurtured a strong curiosity for technology and a drive to explore new tools, concepts, and innovations. Fluent in English, Hindi, Bengali, and Telugu, I thrive in connecting with diverse people and cultures. This portfolio highlights my journey — from academic achievements to projects that reflect my skills, dedication, and growth in the tech world.
+
+                        
                     </p>
 
                     <a
