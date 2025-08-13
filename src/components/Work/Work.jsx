@@ -16,7 +16,7 @@ const Work = () => {
       title: "Random Password Generator",
       description: "Random password is generated as per the needs of the user.",
       image: pass,
-      liveLink: "",
+      liveLink: "https://react-password-generator-olive-theta.vercel.app/",
       github: "https://github.com/Imdkg23/React-Password-Generator",
     },
   ];
