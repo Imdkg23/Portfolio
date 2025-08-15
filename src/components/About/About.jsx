@@ -38,7 +38,7 @@ const About = () => {
                     </h3>
 
                     <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-                        Hi, I’m Deep Kumar Ghosh — a passionate tech enthusiast in my final year of B.Tech. Born and brought up in Hyderabad and later based in West Bengal, I’ve nurtured a strong curiosity for technology and a drive to explore new tools, concepts, and innovations. Fluent in English, Hindi, Bengali, and Telugu, I thrive in connecting with diverse people and cultures. This portfolio highlights my journey — from academic achievements to projects that reflect my skills, dedication, and growth in the tech world.
+                        Hi, I’m Deep Kumar Ghosh, a passionate tech enthusiast in my final year of B.Tech. Born and brought up in Hyderabad and later based in West Bengal, I’ve nurtured a strong curiosity for technology and a drive to explore new tools, concepts, and innovations. Fluent in English, Hindi, Bengali, and Telugu, I thrive in connecting with diverse people and cultures. This portfolio highlights my journey, from academic achievements to projects that reflect my skills, dedication, and growth in the tech world.
 
                         
                     </p>
