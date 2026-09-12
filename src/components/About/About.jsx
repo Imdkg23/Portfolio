@@ -44,7 +44,7 @@ const About = () => {
                     </p>
 
                     <a
-                        href="https://drive.google.com/file/d/1o7kiwHtJmToWw3cVsLTKaaPMYD29hZaz/view"
+                        href={`${import.meta.env.BASE_URL}public/UpdatedResume.pdf`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -53,7 +53,7 @@ const About = () => {
                             boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
                         }}
                     >
-                        DOWNLOAD RESUME
+                        VIEW RESUME
                     </a>
                 </div>
 
