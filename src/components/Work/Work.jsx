@@ -1,6 +1,7 @@
 import React from 'react';
 import bgChanger from '../../assets/projects/bgChanger.png';
 import pass from '../../assets/projects/pass.png';
+import cnn from '../../assets/projects/cnn.png';
 
 
 const Work = () => {
@@ -19,7 +20,12 @@ const Work = () => {
       liveLink: "https://react-password-generator-olive-theta.vercel.app/",
       github: "https://github.com/Imdkg23/React-Password-Generator",
     },
-    
+    {
+      title: "Skin Cancer Detection using CNN",
+      description: "Developed an ML model that classifies between two skin cancer lesions.",
+      image: cnn,
+      github: "https://github.com/Imdkg23/SkinCancer",
+    },
   ];
 
   return (
