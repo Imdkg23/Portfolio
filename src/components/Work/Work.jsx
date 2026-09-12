@@ -19,12 +19,7 @@ const Work = () => {
       liveLink: "https://react-password-generator-olive-theta.vercel.app/",
       github: "https://github.com/Imdkg23/React-Password-Generator",
     },
-    {
-      title: "Skin Cancer Detection using CNN",
-      description: "Developed an ML model that classifies between two skin cancer lesions.",
-      image: cnn,
-      github: "https://github.com/Imdkg23/SkinCancer",
-    }
+    
   ];
 
   return (
